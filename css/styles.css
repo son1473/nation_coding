@@ -1,28 +1,41 @@
+/* 폰트 등록 */
+@font-face {
+	src: url("../fonts/BMJUA_otf.otf");
+	font-family: "Jua";
+}
+
 *{
 	box-sizing: border-box;
+	font-family: "Jua", sans-serif;
 }
 
 body{
+	box-sizing: border-box;
 	margin: 0;
 	background-color: #F0E8D9;
 	color: #58595B;
-}
+	height: 100%;
 
+}
+/* 헤더 */
 #header {
 	margin: 75px 0px;
 	text-align: center;
 }
 
 #header h1 {
+	margin-top: 0;
 	margin-bottom: 30px;
 	font-size: 64px;
+	font-weight: normal;
 }
 
 #header h2 {
 	margin: 0;
 	font-size: 32px;
+	font-weight: normal;
 }
-
+/* 메뉴 */
 .menu{
 	width: 300px;
 	height: 385px;
@@ -84,6 +97,7 @@ body{
 
 .info h1{
 	margin-top: 0;
+	font-weight: normal;
 }
 
 .info p{
@@ -94,5 +108,4 @@ body{
 .info a{
 	text-decoration: none;
 	color: #0000EE;
-	font-weight: bold;
 }

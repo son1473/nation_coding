@@ -3,8 +3,9 @@
 }
 
 body{
-	background-color: #f0e8d9;
 	margin: 0;
+	background-color: #F0E8D9;
+	color: #58595B;
 }
 
 #header {
@@ -13,8 +14,8 @@ body{
 }
 
 #header h1 {
-	font-size: 64px;
 	margin-bottom: 30px;
+	font-size: 64px;
 }
 
 #header h2 {
@@ -27,18 +28,51 @@ body{
 	height: 385px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 50px;
 	border-radius: 10px;
 	background-color: white;
 	text-align: center;
 }
 
 .menu #chicken{
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
 	width: 300px;
 	height: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	background-image: url("../images/chicken.jpg");
-	/*height: 120px;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.menu #sushi{
+	width: 300px;
+	height: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-image: url("../images/sushi.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.menu #burger{
+	width: 300px;
+	height: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-image: url("../images/burger.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.menu #bibimbap{
+	width: 300px;
+	height: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-image: url("../images/bibimbap.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -47,15 +81,18 @@ body{
 .info {
 	padding: 20px;
 }
+
 .info h1{
 	margin-top: 0;
 }
+
 .info p{
+	text-align: left;
 	margin-top: 0;
-	/*margin-bottom 16px;*/
 }
+
 .info a{
 	text-decoration: none;
-	color: blue;
+	color: #0000EE;
 	font-weight: bold;
 }
